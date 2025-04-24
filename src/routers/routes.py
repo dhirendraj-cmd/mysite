@@ -12,29 +12,29 @@ def home():
 @router.get("/about")
 def about():
     return {
-        "message": "About me"
+        "message": "This is About me Page"
     }
 
 @router.get("/contact")
 def contact():
     return {
-        "message": "About me"
+        "message": "This is contact page"
     }
 
 @router.get("/services")
 def services():
     return {
-        "message": "About me"
+        "message": "This is services page"
     }
 
 @router.get("/experience")
 def experience():
     return {
-        "message": "About me"
+        "message": "This is experience page"
     }
 
 @router.get("/social")
 def social():
     return {
-        "message": "About me"
+        "message": "This is social page"
     }
